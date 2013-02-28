@@ -76,10 +76,12 @@
 \definecolor{linkblue}{rgb}{0,0,0.8}						% Standard
 \definecolor{darkblue}{rgb}{0,0.08,0.45}				% Dark blue
 \definecolor{brickred}{cmyk}{0,0.89,0.94,0.28}	% Brickred
+\definecolor{bfhred}{rgb}{0.776,0,0.066}				% Red
+% specific colors
+\definecolor{titlecolor}{rgb}{0,0.08,0.45}			% Color used for the title
 %\definecolor{linkcolor}{rgb}{0,0,0.8}					% Blue for the web- and cd-version!
 \definecolor{linkcolor}{rgb}{0,0,0}							% Black for the print-version!
-\definecolor{bfhred}{rgb}{0.776,0,0.066}				% Red
-\definecolor{codegray}{gray}{0.8}								% Source Code Gray
+\definecolor{code_bg}{gray}{0.8}								% Source Code Background
 %---------------------------------------------------------------------------
 
 % Hyperref Package (Create links in a pdf)
@@ -146,7 +148,7 @@
 	language={[ANSI]C},
 	breaklines=true,
 	basicstyle={\footnotesize \ttfamily},
-	backgroundcolor=\color{codegray},
+	backgroundcolor=\color{code_bg},
 	%frame=single,
 	tab=\rightarrowfill,
 	captionpos=b
@@ -158,7 +160,7 @@
 	language={[ISO]C++},
 	breaklines=true,
 	basicstyle={\footnotesize \ttfamily},
-	backgroundcolor=\color{codegray},
+	backgroundcolor=\color{code_bg},
 	%frame=single,
 	tab=\rightarrowfill,
 	captionpos=b
@@ -170,7 +172,7 @@
 	language={Java},
 	breaklines=true,
 	basicstyle={\footnotesize \ttfamily},
-	backgroundcolor=\color{codegray},
+	backgroundcolor=\color{code_bg},
 	%frame=single,
 	tab=\rightarrowfill,
 	captionpos=b
