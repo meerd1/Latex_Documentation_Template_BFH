@@ -1,0 +1,59 @@
+
+% Project documentation template
+% ===========================================================================
+% This is part of the document "Project documentation template".
+% Authors: brd3
+%
+
+\begin{titlepage}
+
+
+% Red Bar and BFH-Logo absolute placed at (87,10) on A4
+% Actually not a realy satisfactory solution but working.
+%---------------------------------------------------------------------------
+\setlength{\unitlength}{1mm}
+\begin{textblock}{210}(-10,-10)
+	\begin{picture}(210,32)
+		\put(0,0){\color{bfhred}\rule{240mm}{30mm}}
+	\end{picture}
+\end{textblock}
+
+\begin{textblock}{0}[0,0](84,7)
+	\includegraphics[scale=1.0]{Bilder/bfh_de_white.pdf}
+\end{textblock}
+
+% Titel / Untertitel / Autor:
+%---------------------------------------------------------------------------
+\begin{flushleft}
+
+\vspace*{2cm}
+
+\fontsize{18pt}{20pt}\selectfont
+Modul BTExxxx \\
+\fontsize{12pt}{15pt}\selectfont\vspace{0.5em}
+Fachbereich Elektro- und Kommunikationstechnik
+
+\vspace{2cm}
+
+\fontsize{30pt}{32pt}\selectfont 
+\noindent \textbf{\title} \\
+
+\vspace{10cm}
+\fontsize{12pt}{15pt}\selectfont
+\begin{tabbing}
+xxxxxxxxxxxxxxx\=xxxxxxxxxxxxxxxxxxxxxxxx	\kill
+Author:				\> \author									\\
+Datum:				\> \today										\\
+\end{tabbing}
+\end{flushleft}
+
+\vspace{1cm}
+\fontsize{12pt}{15pt}\selectfont
+Damit an der Berner Fachhochschule im Bereich der technischen Informatik Module abgehalten werden können, braucht es im Normalfall ein Skript. Da diese Skripte immer wieder überarbeitet werden sollten, wird mit diesem Dokument eine Vorlage geliefert, welche das ganze auf \LaTeX{} aufbauend einheitlich macht.
+
+\end{titlepage}
+
+%
+% ===========================================================================
+% EOF
+%
