@@ -1,0 +1,34 @@
+# LaTeX
+*.aux
+*.bak
+*.bbl
+*.blg
+*.bmt
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lbl
+*.lof
+*.log
+*.lot
+*.mpx
+*.mtc
+*.out
+*.toc
+*.tps
+
+# TeXnicCenter
+*.glg
+*.glo
+*.gls
+*.ist
+!mkidx.ist
+
+# Compiled
+*.pdf
+*.ps
+!Bilder/*
+
+# Windows
+Thumbs.db*
