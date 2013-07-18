@@ -48,7 +48,6 @@
 # Compiled
 *.pdf
 *.ps
-!Bilder/*
 
 # Windows
 Thumbs.db*
