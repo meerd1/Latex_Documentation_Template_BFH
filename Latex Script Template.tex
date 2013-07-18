@@ -11,6 +11,8 @@
 \def \title			{Template fuer Scripte}			% Title
 \def \version		{1.0}
 \def \author		{rct1}
+\def \logo			{BFH_Logo_C_de_fr_en_100_4CU}	% choose the correct logo in
+																							% the folder Bilder/BFH_Logo
 %---------------------------------------------------------------------------
 
 %---------------------------------------------------------------------------
@@ -52,6 +54,7 @@
 \usepackage{nameref}										% reference by name, not by chapter number
 \usepackage{dirtree}										% create directory trees
 \usepackage{listings}										% include source code
+\usepackage{epstopdf}										% convert eps graphics to pdf
 %---------------------------------------------------------------------------
 
 % Load Math Packages
@@ -200,9 +203,9 @@
 %	\fancyfoot[OR,EL]{\footnotesize \thepage} 	% footer right part --> page number
 %	\fancyhead[OL,ER]{\module} 									% header right part --> module name
 %	\fancyhead[OR,EL]{\footnotesize \leftmark}	% footer left part -->	chapter
-%	\fancyhead[C]{															% header center part --> BFH logo
-%		\begin{textblock}{0}[0,0](86,9)
-%			\includegraphics[scale=1.0]{Bilder/bfh_de_without_text.pdf}
+%	\fancyhead[L]{															% header left part --> BFH logo
+%		\begin{textblock}{0}[0,0](29,9)
+%			\includegraphics[scale=1.0]{Bilder/\logo}
 %		\end{textblock}
 %	}
 
@@ -215,9 +218,9 @@
 	\fancyfoot[R]{\footnotesize \thepage} 	% footer right part --> page number
 	\fancyhead[L]{\module} 									% header right part --> module name
 	\fancyhead[R]{\footnotesize \leftmark}	% footer left part -->	chapter
-	\fancyhead[C]{															% header center part --> BFH logo
-		\begin{textblock}{0}[0,0](86,9)
-			\includegraphics[scale=1.0]{Bilder/bfh_de_without_text.pdf}
+	\fancyhead[L]{													% header left part --> BFH logo
+		\begin{textblock}{0}[0,0](29,9)
+			\includegraphics[scale=1.0]{Bilder/BFH_Logo/\logo}
 		\end{textblock}
 	}
 }
